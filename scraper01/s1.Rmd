@@ -38,12 +38,27 @@ link <- content %>% html_nodes('div.news-nth-title a') %>% html_attr('href')
 datetime <- content %>% html_nodes('div.news-nth-time') %>% html_attr('data-date') #nothing
 ```
 
-
-#### TODO: create dataframe from results and save it to csv file
-
 ```{r}
 df <- data.frame(headline = title, url = link, date_time = datetime  )
 write.csv(df, 'liga_net_news.csv')
 ```
 
 
+#### TODO: create dataframe from results and save it to csv file
+Домашнє завдання:
+
+```{r}
+url <- "https://www.ukrinform.ua/"
+content <- read_html(url)
+### Title
+title <- content %>% html_nodes('div.othersBody div a') %>% html_text()
+### Link to article
+# g! rvest href attribute (how to find function we need to extract attribute of a tag)
+link <- content %>% html_nodes('div.othersBody div a') %>% html_attr('href')
+
+```
+
+```{r}
+df <- data.frame(headline = title, url = link)
+write.csv(df, 'ukrinform_news.csv')
+```
