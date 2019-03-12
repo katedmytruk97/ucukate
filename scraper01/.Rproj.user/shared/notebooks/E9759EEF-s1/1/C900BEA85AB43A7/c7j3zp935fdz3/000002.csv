@@ -1,0 +1,2 @@
+"0","df <- data.frame(headline = title, url = link)"
+"0","write.csv(df, 'ukrinform_news.csv')"

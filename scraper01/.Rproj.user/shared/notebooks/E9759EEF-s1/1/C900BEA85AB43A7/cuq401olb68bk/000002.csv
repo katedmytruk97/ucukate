@@ -1,0 +1,8 @@
+"0","url <- ""https://www.ukrinform.ua/"""
+"0","content <- read_html(url)"
+"0","### Title"
+"0","title <- content %>% html_nodes('div.othersBody div a') %>% html_text()"
+"0","### Link to article"
+"0","# g! rvest href attribute (how to find function we need to extract attribute of a tag)"
+"0","link <- content %>% html_nodes('div.othersBody div a') %>% html_attr('href')"
+"0","### Time"

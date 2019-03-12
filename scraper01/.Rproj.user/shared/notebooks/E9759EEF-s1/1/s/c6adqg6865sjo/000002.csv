@@ -1,0 +1,104 @@
+"0","install.packages('rvest')
+"
+"2","Installing package into ‘C:/Users/dell/Documents/R/win-library/3.5’
+(as ‘lib’ is unspecified)
+"
+"2","also installing the dependencies ‘sys’, ‘askpass’, ‘curl’, ‘openssl’, ‘R6’, ‘xml2’, ‘httr’, ‘selectr’
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/sys_2.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 71389 bytes (69 KB)
+"
+"2","downloaded 69 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/askpass_1.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 64382 bytes (62 KB)
+"
+"2","downloaded 62 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/curl_3.3.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 2995764 bytes (2.9 MB)
+"
+"2","downloaded 2.9 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/openssl_1.2.1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 3944479 bytes (3.8 MB)
+"
+"2","downloaded 3.8 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/R6_2.4.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 58319 bytes (56 KB)
+"
+"2","downloaded 56 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/xml2_1.2.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 3605813 bytes (3.4 MB)
+"
+"2","downloaded 3.4 MB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/httr_1.4.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 500741 bytes (489 KB)
+"
+"2","downloaded 489 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/selectr_0.4-1.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 491276 bytes (479 KB)
+"
+"2","downloaded 479 KB
+
+"
+"2","trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.5/rvest_0.3.2.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 880203 bytes (859 KB)
+"
+"2","downloaded 859 KB
+
+"
+"1","package â€˜sysâ€™ successfully unpacked and MD5 sums checked
+"
+"1","package â€˜askpassâ€™ successfully unpacked and MD5 sums checked
+"
+"1","package â€˜curlâ€™ successfully unpacked and MD5 sums checked
+"
+"1","package â€˜opensslâ€™ successfully unpacked and MD5 sums checked
+"
+"1","package â€˜R6â€™ successfully unpacked and MD5 sums checked
+"
+"1","package â€˜xml2â€™ successfully unpacked and MD5 sums checked
+"
+"1","package â€˜httrâ€™ successfully unpacked and MD5 sums checked
+"
+"1","package â€˜selectrâ€™ successfully unpacked and MD5 sums checked
+"
+"1","package â€˜rvestâ€™ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1","The downloaded binary packages are in
+	C:\Users\dell\AppData\Local\Temp\RtmpmqWExN\downloaded_packages"
+"1","
+"
