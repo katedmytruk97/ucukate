@@ -1,0 +1,7 @@
+"0","name<- c(""Ira"",""Vlad"",""Kate"")"
+"0","age<- c(22,21,21)"
+"0","gender<- c(""F"", ""M"",""F"")"
+"0","df<- data.frame(name,age,gender)"
+"0","write.csv(df,""namegrup.csv"", sep = "";"")"
+"2","attempt to set 'sep' ignored"
+"0","write_excel_csv(df,""namegrup.csv"")"

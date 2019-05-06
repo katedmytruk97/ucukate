@@ -1,0 +1,12 @@
+"0","text_vector <- c(""one"", ""two"", ""three"") 
+text_vector[1]
+"
+"1","[1]"
+"1"," ""one"""
+"1","
+"
+"0","text_vector[3]"
+"1","[1]"
+"1"," ""three"""
+"1","
+"

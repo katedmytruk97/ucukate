@@ -1,0 +1,29 @@
+---
+title: "lesson3"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr)
+library(readr)
+df <- read_csv("D:/УКУ/datavisualisation/data/declarations_261115 - declarations.csv")
+```
+
+### Verb: Select
+```{r}
+library(dplyr)
+df1 <- df %>%
+  select(full_name, name, off, income_family, income)
+```
+### Verbs: arrange (Sort - Sort)
+```{r}
+df1 %>%
+  arrange(income) #сортуємо по колонках доходу
+
+```
+
+
