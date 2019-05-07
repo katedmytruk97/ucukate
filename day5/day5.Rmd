@@ -1,0 +1,10 @@
+---
+title: "day 5"
+output: html_document
+---
+
+###інсталювали бібліотеку
+```{r}
+library(ggplot2)
+```
+

@@ -24,6 +24,44 @@ df1 <- df %>%
 df1 %>%
   arrange(income) #сортуємо по колонках доходу
 
+
+```
+```{r}
+df_new<-df %>%
+  mutate(income_usd = income / 29, total_income = income + income_family )
+  
+```
+###group_by, sumarize
+```{r}
+df_new1<-df %>%
+  group_by(office) %>%
+  summarise(number_of_ppl = n(), mean_income = mean(income), sd_income=sd(income))
+
+df_new1<-df %>%
+  group_by(name) %>%
+  summarise(count=n(), maximum = max(income))
+
+df_new1<-df %>%
+  group_by(office, name) %>%
+  summarise(count=n(), maximum = max(income))
+```
+
+
+### New Web - join
+```{r}
+install.packages("nycflights13")
+library(nycflights13)
+View(flights)
+
+View(airlines)
+
+
+```
+```{r}
+df_flights<- flights %>%
+  inner_join(airlines, by = "carrier")
+
+  
 ```
 
 

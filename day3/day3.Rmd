@@ -127,8 +127,8 @@ vvv <- c("1.1", "2.2", "3.3", "4.4", "5.5")
 
 # Task 1.1
 fff <- c()
-for(i in vvv) {
-  fff[i] <- as.double(i)
+for(e in vvv) {
+  append(fff, as.double(e), after = length(fff))
 }
 
 # Task 1.2
