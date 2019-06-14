@@ -1,0 +1,17 @@
+"0","library(dplyr)"
+"0","library(readr)"
+"0","assessment <- read_csv(""D:/УКУ/datavisualisation/finalProject/assessment_y2019_3m.csv"")"
+"2","Parsed with column specification:
+cols(
+  .default = col_double(),
+  company_name = [31mcol_character()[39m,
+  company_code = [31mcol_character()[39m,
+  company_type = [31mcol_character()[39m,
+  company_status = [31mcol_character()[39m,
+  audition_result = [33mcol_logical()[39m,
+  final_assessment = [31mcol_character()[39m
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"0","View(assessment)"

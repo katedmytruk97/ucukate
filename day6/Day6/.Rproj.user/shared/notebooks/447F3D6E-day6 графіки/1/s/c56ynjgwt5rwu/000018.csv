@@ -1,0 +1,4 @@
+"0","ggplot(mtcars)+"
+"0","      geom_histogram(aes(x=mpg),"
+"0","                     binwidth = 1,"
+"0","                     fill=""darkred"")"

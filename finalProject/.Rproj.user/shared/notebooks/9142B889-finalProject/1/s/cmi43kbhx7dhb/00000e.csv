@@ -1,0 +1,13 @@
+"0","#install.packages(""ggplot2"")"
+"0","library(ggplot2)"
+"0","ggplot(assessment_company_type_sorted, aes(x=reorder(company_type, -count), y=count)) +"
+"0","  geom_bar(stat=""identity"", fill=""darkred"") + "
+"0","  xlab(""Тип компанії"") +"
+"0","  ylab(""Загальна оцінка результатів фінансової діяльності за типом компанії"") +"
+"0","  labs(title = ""Оцінка результатів фінансово-господарської діяльності підприємств державного сектору економіки"", "
+"0","       subtitle = ""Реєстрація автомобілів в 2019 році"", "
+"0","       caption = ""Дані за 3 місяці 2019."") + "
+"0","  coord_flip()"
+"2","Error in grid.Call(C_textBounds, as.graphicsAnnot(x$label), x$x, x$y,  : 
+  invalid input 'ДП' in 'utf8towcs'
+"

@@ -1,0 +1,6 @@
+"0","ggplot(prcp)+ "
+"0","      geom_bar(aes(x= reorder(city,precipitation), #Reorder це функція яка пересортує city і пересортовує її так як нам зручно. Помагає посуртувати дані не за алфавітом а в порядку збільшення чи зменшення."
+"0","                   y = precipitation), "
+"0","               stat=""identity"","
+"0","               fill=""darkblue"")+"
+"0","      coord_flip()"

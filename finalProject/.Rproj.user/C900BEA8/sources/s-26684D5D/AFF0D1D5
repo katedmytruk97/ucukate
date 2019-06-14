@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1560541212256.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AFF0D1D5",
+    "lastKnownWriteTime" : 3344608210577403439,
+    "last_content_update" : 1560541212256,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "DF84B18F",
+        "caption" : "assessment_company_type_sorted",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=assessment_company_type_sorted&cache_key=DF84B18F",
+        "displayedObservations" : "2",
+        "environment" : "",
+        "object" : "assessment_company_type_sorted",
+        "preview" : "0",
+        "totalObservations" : "2",
+        "variables" : "2"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

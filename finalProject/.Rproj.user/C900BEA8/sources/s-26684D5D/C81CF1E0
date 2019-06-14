@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1560540600985.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "C81CF1E0",
+    "lastKnownWriteTime" : 30962724186423412,
+    "last_content_update" : 1560540600985,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "3F69170E",
+        "caption" : "assessment",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=assessment&cache_key=3F69170E",
+        "displayedObservations" : "72",
+        "environment" : "",
+        "object" : "assessment",
+        "preview" : "0",
+        "totalObservations" : "72",
+        "variables" : "34"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

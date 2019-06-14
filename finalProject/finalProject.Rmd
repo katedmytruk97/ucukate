@@ -1,0 +1,57 @@
+---
+title: "Final Project"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+library(readr)
+assessment <- read_csv("D:/УКУ/datavisualisation/finalProject/assessment_y2019_3m.csv")
+
+View(assessment)
+```
+
+```{r}
+
+assessment_selected <- assessment %>% select(company_type, total_mark)
+
+assessment_company_type <- assessment_selected %>% group_by(company_type) %>% summarise(count=n())
+
+assessment_company_type_sorted <- assessment_company_type[order(-assessment_company_type$count),]
+
+View(assessment_company_type_sorted)
+```
+
+```{r}
+#install.packages("ggplot2")
+library(ggplot2)
+ggplot(assessment_company_type_sorted, aes(x=reorder(company_type, -count), y=count)) +
+  geom_bar(stat="identity", fill="darkred") + 
+  xlab("Тип компанії") +
+  ylab("Загальна оцінка результатів фінансової діяльності за типом компанії") +
+  labs(title = "Оцінка результатів фінансово-господарської діяльності підприємств державного сектору економіки", 
+       subtitle = "Реєстрація автомобілів в 2019 році", 
+       caption = "Дані за 3 місяці 2019.") + 
+  coord_flip()
+
+```
+
+```{r}
+ggplot(head(prcp, 10))+
+      geom_bar(aes(reorder(city, precipitation), 
+                   precipitation), 
+               stat="identity",
+               fill="darkred")+
+      coord_flip()
+```
+
+```{r}
+ggplot(prcp)+ 
+      geom_bar(aes(x= reorder(city,precipitation), #Reorder це функція яка пересортує city і пересортовує її так як нам зручно. Помагає посуртувати дані не за алфавітом а в порядку збільшення чи зменшення.
+                   y = precipitation), 
+               stat="identity",
+               fill="darkblue")+
+      coord_flip()
+```
+
+

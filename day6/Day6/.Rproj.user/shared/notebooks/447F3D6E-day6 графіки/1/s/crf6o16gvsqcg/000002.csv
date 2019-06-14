@@ -1,0 +1,4 @@
+"0","library(datasets)"
+"0","data(""precip"")"
+"0","prcp <- data.frame(city = as.character(names(precip)), "
+"0","                   precipitation = (unname(precip)))"

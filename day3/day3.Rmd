@@ -138,3 +138,69 @@ fff <- as.double(vvv)
 a <- fff[1] + fff[2]
 ```
 
+Виконання домашки від викладача
+```{r}
+vvv <- c("1.1", "2.2", "3.3", "4.4", "5.5")
+vvv_number <- vector()
+i <- 1
+for(e in vvv) {
+  vvv_number[i] <- as.double(e)
+  i <- i + 1
+}
+
+vvv3 <- vector()
+for(e in vvv) {
+  vvv3 <- append(vvv3, as.double(e))
+}
+
+```
+
+Виконання домашки дня 4 від викладача
+```{r}
+library(dplyr)
+df <- declarations_source
+
+df1 <- df %>%
+  mutate(total_area = flat_area + flat_area_family + house_area + house_area_family)
+
+df2 <- df1 %>%
+  mutate(total_income = income + income_family)
+
+```
+#2
+```{r}
+df2 <- df1 %>%
+  mutate(total_income = income + income_family)
+```
+
+#3
+```{r}
+
+df3 <- df2 %>%
+  filter(total_area > 100, total_income > 1000000)
+```
+
+#4
+```{r}
+df4 <- df3 %>%
+  arrange(desc(total_income) )
+```
+
+#5
+```{r}
+df5 <- df4 %>% 
+  select(full_name, total_area, total_income)
+```
+
+#6
+```{r}
+df_new <- df %>%
+  mutate(total_area = flat_area + flat_area_family + house_area + house_area_family) %>%
+  mutate(total_income = income + income_family) %>%
+  filter(total_area > 100, total_income > 1000000) %>%
+  arrange(desc(total_income) ) %>% 
+  select(full_name, total_area, total_income)
+```
+
+
+
